@@ -1,6 +1,6 @@
 # TOAST UI Grid for React
 
-> This is a React component wrapping [TOAST UI Grid](https://github.com/nhn/tui.grid).
+> Fork of [TOAST UI Grid](https://github.com/nhn/tui.grid) with fix for react 18.
 
 [![npm version](https://img.shields.io/npm/v/@toast-ui/react-grid.svg)](https://www.npmjs.com/package/@toast-ui/react-grid)
 
@@ -41,7 +41,7 @@ tui.usageStatistics = false;
 ### Using npm
 
 ```sh
-npm install --save @toast-ui/react-grid
+npm install --save @jieun.jang/tui-react-grid
 ```
 
 ## 🔡 Usage
@@ -54,14 +54,14 @@ You can use Toast UI Grid for React as a ECMAScript module or a CommonJS module.
 
 ```js
 import 'tui-grid/dist/tui-grid.css';
-import Grid from '@toast-ui/react-grid';
+import Grid from '@jieun.jang/tui-react-grid';
 ```
 
 - Using CommonJS module
 
 ```js
 require('tui-grid/dist/tui-grid.css');
-const Grid = require('@toast-ui/react-grid');
+const Grid = require('@jieun.jang/tui-react-grid');
 ```
 
 ### Props
